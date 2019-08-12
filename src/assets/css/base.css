@@ -1,0 +1,93 @@
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 26px;
+  }
+}
+.root-wrap{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.content{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+.border{
+  width: 100%;
+  height:1px;
+  background: rgba(255,255,255,.2);
+}
+.submit-btn{
+  display: block;
+  width: 80%;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  margin: 30px auto 0;
+  background-color: #2a2e38;
+}
+/* 左右边距 */
+.pd{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.bg{
+  background: #20232A;
+}
+.mgb{
+  margin-bottom: 1rem;
+}
+.head{
+  height: 2.8rem;
+  line-height: 2.8rem;
+  background: #20232A;
+  padding-left: 1rem;
+}
+.define-loading{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+.van-dialog__message, .van-dialog__header{
+  color: #666;
+}
+/* 当像素比为 2 时，高度缩小一倍 */
+@media only screen and (-webkit-device-pixel-ratio:2 ) {
+  .border{
+    transform: scaleY(.5);
+  }
+}
+/* 当像素比为 3 时，高度缩小至三分之一 */
+@media only screen and (-webkit-device-pixel-ratio:3 ) {
+  .border{
+    transform: scaleY(.333333333333333333);
+  }
+}
