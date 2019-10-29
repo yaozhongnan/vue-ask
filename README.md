@@ -14,7 +14,7 @@ vue + vue-router + vant + better-scroll + axios + vue-core-image-upload + es6 + 
 
 ### 效果演示
 
-[查看demo请戳这里](http://www.mohenc.top:8080)
+[查看demo请戳这里](http://47.99.74.241:8080)
 
 请用 chrome 手机模式预览，无法滑动请刷新页面。由于本人域名尚未备案，因此需要携带端口号。买的服务器不好，因此访问接口速度会较慢，请多等待片刻。
 
