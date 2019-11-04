@@ -1,6 +1,6 @@
 import ajax from './ajax'
 
-const BASE_URL = 'http://www.mohenc.top:5000'
+const BASE_URL = 'http://47.99.74.241:5000'
 // const BASE_URL = 'http://localhost:5000'
 
 // get - 首页 - 接口
